@@ -1,0 +1,49 @@
+PODS:
+  - ApplozicCore (8.3.0)
+  - ApplozicSwift (6.4.0):
+    - ApplozicSwift/Complete (= 6.4.0)
+  - ApplozicSwift/Complete (6.4.0):
+    - ApplozicCore (~> 8.3.0)
+    - ApplozicSwift/RichMessageKit
+    - Kingfisher (~> 7.0.0)
+    - SwipeCellKit (~> 2.7.1)
+  - ApplozicSwift/RichMessageKit (6.4.0)
+  - Flutter (1.0.0)
+  - Kingfisher (7.0.0)
+  - Kommunicate (6.3.0):
+    - ApplozicSwift (~> 6.4.0)
+  - kommunicate_flutter (0.0.1):
+    - Flutter
+    - Kommunicate (~> 6.3.0)
+  - SwipeCellKit (2.7.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - kommunicate_flutter (from `.symlinks/plugins/kommunicate_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - ApplozicCore
+    - ApplozicSwift
+    - Kingfisher
+    - Kommunicate
+    - SwipeCellKit
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  kommunicate_flutter:
+    :path: ".symlinks/plugins/kommunicate_flutter/ios"
+
+SPEC CHECKSUMS:
+  ApplozicCore: 120b38ee62ae0edc54a7c40e7d5a5390d7d751b2
+  ApplozicSwift: c2d53a93dadf1f477f51d86f313236c5cc626d62
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  Kingfisher: 5efc54fec3980f92354898532e562cc17f31efb4
+  Kommunicate: b7e902088e632255c7d8062c754a2ac89dc692de
+  kommunicate_flutter: 0d7a0b0f7d8df869e1df64e5e5838b02d9097200
+  SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
+
+PODFILE CHECKSUM: b019a6b5a7fff2b4c1c6dd7b5efcd5e01bb15440
+
+COCOAPODS: 1.11.2
