@@ -88,7 +88,7 @@ class _MyDiaryScreenState extends State<MyDiaryScreen>
 
     listViews.add(
       TitleView(
-        titleTxt: 'Mediterranean diet',
+        titleTxt: 'Covid 19 Situation',
         subTxt: 'Details',
         animation: Tween<double>(begin: 0.0, end: 1.0).animate(CurvedAnimation(
             parent: widget.animationController!,
@@ -108,7 +108,7 @@ class _MyDiaryScreenState extends State<MyDiaryScreen>
     );
     listViews.add(
       TitleView(
-        titleTxt: 'Meals today',
+        titleTxt: 'Book Other Services',
         subTxt: 'Customize',
         animation: Tween<double>(begin: 0.0, end: 1.0).animate(CurvedAnimation(
             parent: widget.animationController!,

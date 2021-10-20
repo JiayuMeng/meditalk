@@ -19,7 +19,7 @@ class MealsListData {
     MealsListData(
       imagePath: 'assets/fitness_app/breakfast.png',
       titleTxt: 'Breakfast',
-      kacl: 525,
+      kacl: 0,
       meals: <String>['Bread,', 'Peanut butter,', 'Apple'],
       startColor: '#FA7D82',
       endColor: '#FFB295',
@@ -27,7 +27,7 @@ class MealsListData {
     MealsListData(
       imagePath: 'assets/fitness_app/lunch.png',
       titleTxt: 'Lunch',
-      kacl: 602,
+      kacl: 0,
       meals: <String>['Salmon,', 'Mixed veggies,', 'Avocado'],
       startColor: '#738AE6',
       endColor: '#5C5EDD',

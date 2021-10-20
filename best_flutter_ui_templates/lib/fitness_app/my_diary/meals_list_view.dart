@@ -223,7 +223,8 @@ class MealsView extends StatelessWidget {
                                       padding: const EdgeInsets.all(6.0),
                                       child: Icon(
                                         Icons.add,
-                                        color: HexColor(mealsListData!.endColor),
+                                        color:
+                                            HexColor(mealsListData!.endColor),
                                         size: 24,
                                       ),
                                     ),
